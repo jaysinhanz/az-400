@@ -9,9 +9,9 @@ Enable-WindowsOptionalFeature -Online -FeatureName $("Microsoft-Hyper-V", "Conta
 Build Windows Agent:
 
 ```powershell
-$agent="devopsagentwindows"
+$agent="devopsagentwin2022"
 $dockerhubuser="arambazamba"
-docker build -t $agent .
+docker build -t $agent -m 2GB .
 docker tag $agent $dockerhubuser/$agent
 docker push $dockerhubuser/$agent
 ```
