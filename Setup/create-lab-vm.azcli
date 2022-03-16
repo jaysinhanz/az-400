@@ -1,5 +1,5 @@
 rnd=$RANDOM
-loc=westeurope
+loc=australiaeast
 grp=az-lab
 vmname=labvm-$rnd
 user=azlabadmin
