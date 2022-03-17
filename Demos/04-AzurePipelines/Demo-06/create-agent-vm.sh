@@ -1,5 +1,5 @@
 env=vm-agent
-loc=westeurope
+loc=australiaeast
 grp=az400-m04-$env
 vmname=devops-$env
 user=az400admin
