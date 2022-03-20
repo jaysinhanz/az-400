@@ -1,6 +1,6 @@
 rnd=$RANDOM
 grp=az400-m04-$rnd
-loc=westeurope
+loc=australiaeast
 appPlan=simpleapi-$rnd
 web=simpleapi-$rnd
 
